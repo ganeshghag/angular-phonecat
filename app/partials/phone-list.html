@@ -13,6 +13,8 @@
     </div>
     <div class="col-md-10">
       <!--Body content-->
+      
+      <p>GaneshGhag: Total number of phones: {{phones.length}}</p>
 
       <ul class="phones">
         <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
@@ -22,6 +24,7 @@
           <p>{{phone.snippet}}</p>
         </li>
       </ul>
+      
 
     </div>
   </div>
