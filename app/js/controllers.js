@@ -20,3 +20,9 @@ phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Ph
       $scope.mainImageUrl = imageUrl;
     }
   }]);
+
+phonecatControllers.controller('PersonListCtrl', ['$scope', 'Person',
+  function($scope, Person) {
+    $scope.persons = Person.query();
+    //$scope.orderProp = 'name';
+  }]);

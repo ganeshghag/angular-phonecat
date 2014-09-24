@@ -1,0 +1,21 @@
+[
+    {
+        "age": 41, 
+        "id": "1", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "name": "Ganesh Ghag"
+    }, 
+    {
+        "age": 41, 
+        "id": "2", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "name": "Peter Parker"
+    },
+    {
+        "age": 42, 
+        "id": "3", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "name": "Clark Kent"
+    }
+    
+]

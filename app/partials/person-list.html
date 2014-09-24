@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+      
+      <p>Total number of new persons: {{persons.length}}</p>
+
+      <ul class="phones">
+        <li ng-repeat="person in persons" class="thumbnail phone-listing">
+          {{person.id}} - <a href="#/persons/{{person.id}}">{{person.name}}</a> [Age: {{person.age}}]
+        </li>
+      </ul>
+      
+
+    </div>
+  </div>
+</div>
