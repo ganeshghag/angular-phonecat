@@ -15,13 +15,14 @@
       <!--Body content-->
       
       <p>Total number of new persons: {{persons.length}}</p>
-
+<!--
       <ul class="phones">
         <li ng-repeat="person in persons" class="thumbnail phone-listing">
           {{person.id}} - <a href="#/persons/{{person.id}}">{{person.name}}</a> [Age: {{person.age}}]
         </li>
       </ul>
-      
+-->
+      <div class="gridStyle" ng-grid="gridOptions"></div>
 
     </div>
   </div>
